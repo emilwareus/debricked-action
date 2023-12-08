@@ -31,6 +31,8 @@ jobs:
         
       # Here we run the Debricked CLI, where you have multiple options to configure your scan. 
       # The CLI repo can be found here: https://github.com/debricked/cli
+      # Docs to CLI: https://portal.debricked.com/debricked-cli-63/debricked-cli-documentation-298
+      # I recommend you to download the CLI and explore the commands (./debricked -h)
       # You can for instanice configure the CLI to: 
       # - Not resolve manifest-files
       # - Generate callgraphs
