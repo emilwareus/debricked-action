@@ -13,8 +13,10 @@ jobs:
 
       # Resolution images (contains "resolution" in tag) are bigger, but comes with a lot of pre-installed package managers: 
       # Here are the dockerfiles: https://github.com/debricked/cli/tree/main/build/docker
+      
       # This is the easiest way to integrate, but it may be better 
-      # to run debricked scans in you build images. 
+      # to run debricked scans in your build images. This will ensure that we
+      # use the exact same versions of the package managers as you do in our scan.
 
       # You can choose between debian and alpine images, where we do alpine by default. 
       # We recommend to use debian images for scanning Python projects, as the scanner will not 
